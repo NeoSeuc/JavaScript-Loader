@@ -1,0 +1,28 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper, #loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+#loader-wrapper {
+    position: absolute;
+}
+
+#loader-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#loader  {
+    height: 3px;
+    background: #039BE5;
+}
